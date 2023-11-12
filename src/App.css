@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.main {
+  background: linear-gradient(to right, #dfc4c4, #6d5454);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.joke-card {
+  background-color: aliceblue;
+  height: 380px;
+  width: 400px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 15px 1px #b3b3b3;
+  margin: 20px;
+}
+h1 {
+  font-size: 120px;
+  font-weight: 600;
+}
+button {
+  height: 40px;
+  width: 100px;
+  box-shadow: 2px 2px 15px 1px #b3b3b3;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px;
+}
+button:hover {
+  background-color: black;
+  color: aliceblue;
+  cursor: pointer;
+}
+.reset {
+  background-color: rgb(236, 147, 147);
+}
